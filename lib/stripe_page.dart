@@ -165,20 +165,4 @@ class _PaymentsPageState extends State<PaymentsPage> {
       debugPrint(e.toString());
     }
   }
-  
-  void _showSnackbar(BuildContext context, String message) {
-    final snackBar = SnackBar(
-      content: Text(message),
-      duration: const Duration(
-          seconds: 3), // Duration for which the snackbar is visible
-      action: SnackBarAction(
-        label: 'Close',
-        onPressed: () {
-          // Code to execute when the user presses the action button
-        },
-      ),
-    );
-
-    ScaffoldMessenger.of(context).showSnackBar(snackBar);
-  }
 }
