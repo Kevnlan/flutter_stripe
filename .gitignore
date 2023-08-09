@@ -86,6 +86,7 @@ Thumbs.db
 
 # Web related
 lib/generated_plugin_registrant.dart
+lib/env.dart
 
 # Symbolication related
 app.*.symbols
